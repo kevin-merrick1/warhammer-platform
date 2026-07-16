@@ -1,0 +1,41 @@
+/* ========================================
+   RESPONSIVE LAYOUT
+======================================== */
+
+@media screen and (max-width: 850px) {
+    .journey-grid,
+    .tool-grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .purpose-grid,
+    .resource-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    nav {
+        align-items: flex-start;
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        gap: 15px;
+    }
+
+    .journey-grid,
+    .tool-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .section-heading h2 {
+        font-size: 1.8rem;
+    }
+
+    .page-intro h1 {
+        font-size: 2rem;
+    }
+}

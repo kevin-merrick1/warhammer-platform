@@ -1,0 +1,30 @@
+/* ========================================
+   HEADER & NAVIGATION
+======================================== */
+
+header {
+    background-color: white;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    font-weight: bold;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav a {
+    color: #222222;
+    font-weight: bold;
+    text-decoration: none;
+}

@@ -1,0 +1,25 @@
+/* ========================================
+   HERO
+======================================== */
+
+.hero {
+    padding: 100px 20px;
+    text-align: center;
+}
+
+/* ========================================
+   REASSURANCE
+======================================== */
+
+.reassurance ul {
+    margin: 25px 0;
+    padding-left: 20px;
+}
+
+.reassurance li {
+    margin-bottom: 10px;
+}
+
+.reassurance > p {
+    font-weight: bold;
+}

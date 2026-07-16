@@ -1,0 +1,65 @@
+/* ========================================
+   CARDS
+======================================== */
+
+.journey-grid,
+.purpose-grid,
+.tool-grid,
+.resource-grid {
+    display: grid;
+    gap: 20px;
+}
+
+.journey-grid,
+.tool-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.purpose-grid,
+.resource-grid {
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.journey-card,
+.purpose-card,
+.tool-card,
+.resource-card {
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+}
+
+.journey-card {
+    min-height: 190px;
+    color: #222222;
+    text-decoration: none;
+}
+
+.journey-card h3,
+.purpose-card h3,
+.tool-card h3,
+.resource-card h3 {
+    margin-bottom: 12px;
+}
+
+.journey-card p,
+.purpose-card p,
+.tool-card p,
+.resource-card p {
+    color: #5b6670;
+}
+
+.resource-card p {
+    margin-bottom: 15px;
+}
+
+.resource-card a {
+    color: #222222;
+    font-weight: bold;
+}
+
+.journey-card:hover {
+    border-color: #777777;
+    transform: translateY(-3px);
+}
