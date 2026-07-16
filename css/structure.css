@@ -1,3 +1,15 @@
+/*
+========================================
+File:
+structure.css
+
+Purpose:
+Defines the shared page layout, section
+spacing and structural elements used
+throughout the website.
+========================================
+*/
+
 /* ========================================
    SHARED LAYOUT
 ======================================== */
@@ -12,6 +24,10 @@
     margin: 0 auto;
     padding: 80px 20px;
 }
+
+/* ========================================
+   SECTION HEADINGS
+======================================== */
 
 .section-heading {
     max-width: 700px;
@@ -42,6 +58,10 @@
     margin-bottom: 12px;
     font-size: 2.5rem;
 }
+
+/* ========================================
+   FOOTER
+======================================== */
 
 footer {
     padding: 30px;

@@ -1,15 +1,27 @@
+/*
+========================================
+File:
+utilities.css
+
+Purpose:
+Reserved for small reusable helper classes
+used throughout the website.
+========================================
+*/
+
 /* ========================================
    UTILITIES
 ======================================== */
 
 /*
-    Reusable helper classes.
+Future utility classes will be added here.
 
-    Examples (future):
-    .hidden
-    .text-center
-    .mt-1
-    .mb-2
-    .flex
-    .grid
+Examples:
+
+.hidden
+.text-center
+.mt-1
+.mb-2
+.flex
+.grid
 */

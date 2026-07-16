@@ -1,5 +1,16 @@
+/*
+========================================
+File:
+responsive.css
+
+Purpose:
+Defines responsive layout adjustments for
+tablet and mobile devices.
+========================================
+*/
+
 /* ========================================
-   RESPONSIVE LAYOUT
+   TABLET LAYOUT
 ======================================== */
 
 @media screen and (max-width: 850px) {
@@ -13,6 +24,10 @@
         grid-template-columns: 1fr;
     }
 }
+
+/* ========================================
+   MOBILE LAYOUT
+======================================== */
 
 @media screen and (max-width: 550px) {
     nav {

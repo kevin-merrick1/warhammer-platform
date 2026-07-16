@@ -1,11 +1,26 @@
+/*
+========================================
+File:
+navigation.css
+
+Purpose:
+Defines the styling for the shared site
+header and navigation.
+========================================
+*/
+
 /* ========================================
-   HEADER & NAVIGATION
+   HEADER
 ======================================== */
 
 header {
     background-color: white;
     padding: 20px;
 }
+
+/* ========================================
+   NAVIGATION
+======================================== */
 
 nav {
     display: flex;

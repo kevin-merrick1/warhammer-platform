@@ -1,11 +1,17 @@
 {
     "id": "40k-beginner",
+    "version": "1.0",
+    "description": "Decision engine data for the Warhammer 40,000 beginner journey.",
+
     "title": "Warhammer 40,000 Journey",
+
     "startStep": "start",
+
     "steps": {
         "start": {
             "title": "Where are you today?",
             "description": "Choose the option that best matches your current situation.",
+
             "options": [
                 {
                     "label": "I'm just curious",
@@ -37,6 +43,7 @@
                 }
             ]
         },
+
         "curious": {
             "title": "Understand the hobby",
             "description": "Learn what Warhammer 40,000 is and which parts of the hobby interest you.",
@@ -45,6 +52,7 @@
             "tools": [],
             "nextStep": "choose-army"
         },
+
         "choose-army": {
             "title": "Choose an army",
             "description": "Compare playable factions and find the ones that appeal to you.",
@@ -55,6 +63,7 @@
             ],
             "nextStep": "first-box"
         },
+
         "first-box": {
             "title": "Start with what you own",
             "description": "Understand what is in your box before buying anything else.",
@@ -63,6 +72,7 @@
             "tools": [],
             "nextStep": "build-models"
         },
+
         "build-models": {
             "title": "Build your models",
             "description": "Prepare and assemble your miniatures one step at a time.",
@@ -71,6 +81,7 @@
             "tools": [],
             "nextStep": "learn-painting"
         },
+
         "learn-painting": {
             "title": "Painting is optional",
             "description": "Paint simply, paint slowly or leave painting until later.",
@@ -82,6 +93,7 @@
             ],
             "nextStep": "learn-playing"
         },
+
         "learn-playing": {
             "title": "Learn the game",
             "description": "Start with the core sequence instead of trying to memorise every rule.",
@@ -92,6 +104,7 @@
             ],
             "nextStep": "grow-army"
         },
+
         "grow-army": {
             "title": "Grow with purpose",
             "description": "Expand based on what you enjoy and what your army needs.",

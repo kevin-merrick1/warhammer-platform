@@ -1,5 +1,16 @@
+/*
+========================================
+File:
+components.css
+
+Purpose:
+Defines reusable user interface components
+shared across the website.
+========================================
+*/
+
 /* ========================================
-   CARDS
+   CARD GRIDS
 ======================================== */
 
 .journey-grid,
@@ -19,6 +30,10 @@
 .resource-grid {
     grid-template-columns: repeat(3, 1fr);
 }
+
+/* ========================================
+   CARDS
+======================================== */
 
 .journey-card,
 .purpose-card,
