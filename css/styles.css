@@ -141,3 +141,36 @@ footer {
 .reassurance > p {
     font-weight: bold;
 }
+
+.site-purpose {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.purpose-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.purpose-card {
+    padding: 25px;
+    background-color: white;
+    border: 1px solid #dddddd;
+    border-radius: 12px;
+}
+
+.purpose-card h3 {
+    margin-bottom: 12px;
+}
+
+.purpose-card p {
+    color: #5b6670;
+}
+
+@media screen and (max-width: 850px) {
+    .purpose-grid {
+        grid-template-columns: 1fr;
+    }
+}
