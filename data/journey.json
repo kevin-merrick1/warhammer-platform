@@ -1,0 +1,31 @@
+{
+    "start": {
+        "question": "Where are you today?",
+        "options": [
+            {
+                "text": "I'm just curious",
+                "next": "curious"
+            },
+            {
+                "text": "Choosing my first army",
+                "next": "firstArmy"
+            },
+            {
+                "text": "I bought my first box",
+                "next": "firstBox"
+            },
+            {
+                "text": "Building models",
+                "next": "building"
+            },
+            {
+                "text": "Learning to paint",
+                "next": "painting"
+            },
+            {
+                "text": "Learning to play",
+                "next": "playing"
+            }
+        ]
+    }
+}

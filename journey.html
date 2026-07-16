@@ -10,33 +10,26 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 
-<body>
-    <header>
-        <nav>
-            <div class="logo">Warhammer Platform</div>
-
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="journey.html">Journey</a></li>
-                <li><a href="factions.html">Factions</a></li>
-                <li><a href="tools.html">Tools</a></li>
-                <li><a href="resources.html">Resources</a></li>
-                <li><a href="events.html">Events</a></li>
-            </ul>
-        </nav>
-    </header>
+<body data-page="journey">
+    <div id="site-header"></div>
 
     <main>
         <section class="page-intro">
             <p class="section-label">Journey</p>
             <h1>Find your next step</h1>
-            <p>Choose where you are now and continue from there.</p>
+            <p>Select where you are now.</p>
+        </section>
+
+        <section class="decision-engine">
+            <div id="journey-content">
+                <h2 id="journey-title"></h2>
+                <p id="journey-description"></p>
+                <div id="journey-options"></div>
+            </div>
         </section>
     </main>
 
-    <footer>
-        <p>&copy; 2026 Warhammer Platform</p>
-    </footer>
+    <div id="site-footer"></div>
 
     <script src="js/main.js"></script>
 </body>
