@@ -122,3 +122,22 @@ footer {
         font-size: 1.8rem;
     }
 }
+
+.reassurance {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 80px 20px;
+}
+
+.reassurance ul {
+    margin: 25px 0;
+    padding-left: 20px;
+}
+
+.reassurance li {
+    margin-bottom: 10px;
+}
+
+.reassurance > p {
+    font-weight: bold;
+}
